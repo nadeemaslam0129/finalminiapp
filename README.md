@@ -11,8 +11,11 @@ cd backend
 Install dependencies and setup environment (run once):
 
 composer install
+
 cp .env.example .env
+
 php artisan key:generate
+
 php artisan migrate --seed
 
 
